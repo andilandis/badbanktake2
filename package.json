@@ -11,7 +11,7 @@
     "test": "jest",
     "client": "cd client && npm start",
     "start": "node index.js",
-    "develop": "concurrently --kill-others-on-fail \"npm run start\" \"npm run client\""
+    "build": "webpack --config webpack.config.js"
   },
   "author": "andrea.landis24@gmail.com",
   "license": "MIT",
