@@ -11,7 +11,7 @@
     "test": "jest",
     "client": "cd client && npm start",
     "start": "node index.js",
-    "build": "webpack --config webpack.config.js"
+   
   },
   "author": "andrea.landis24@gmail.com",
   "license": "MIT",
