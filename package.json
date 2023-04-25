@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest",
     "client": "cd client && npm start",
-    "start": "node index.js",
+    "start": "node index.js"
    
   },
   "author": "andrea.landis24@gmail.com",
