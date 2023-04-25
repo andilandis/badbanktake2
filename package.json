@@ -11,11 +11,7 @@
     "test": "jest",
     "client": "cd client && npm start",
     "start": "node index.js",
-    "develop": "concurrently --kill-others-on-fail \"npm run start\" \"npm run client\"",
-    "build": "ng build",
-    "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
-    "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
-    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
+    "develop": "concurrently --kill-others-on-fail \"npm run start\" \"npm run client\""
   },
   "author": "andrea.landis24@gmail.com",
   "license": "MIT",
